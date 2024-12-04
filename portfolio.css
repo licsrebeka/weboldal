@@ -1,0 +1,229 @@
+
+.poppins-thin {
+    font-family: "Poppins", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+  }
+  
+  .poppins-extralight {
+    font-family: "Poppins", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+  }
+  
+  .poppins-light {
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+  }
+  
+  .poppins-regular {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .poppins-medium {
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+  }
+  
+  .poppins-semibold {
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+  }
+  
+  .poppins-bold {
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+  .poppins-extrabold {
+    font-family: "Poppins", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+  }
+  
+  .poppins-black {
+    font-family: "Poppins", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+  }
+  
+  .poppins-thin-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 100;
+    font-style: italic;
+  }
+  
+  .poppins-extralight-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 200;
+    font-style: italic;
+  }
+  
+  .poppins-light-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-style: italic;
+  }
+  
+  .poppins-regular-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+  }
+  
+  .poppins-medium-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: italic;
+  }
+  
+  .poppins-semibold-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: italic;
+  }
+  
+  .poppins-bold-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: italic;
+  }
+  
+  .poppins-extrabold-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 800;
+    font-style: italic;
+  }
+  
+  .poppins-black-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 900;
+    font-style: italic;
+  }
+  
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+}
+
+.header {
+    background-color: #A9ACD5;
+}
+
+.header h1 {
+    padding: 1rem;
+    font-weight: normal;
+}
+
+.main {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.profilszoveg {
+    margin-top: 19rem;
+    margin-left: 5rem;
+    margin-right: 9rem;
+}
+
+.designegy {
+    background-color: #A9ACD5;
+}
+
+.designegy h1 {
+    padding: 1rem;
+    font-weight: normal;
+}
+
+.boroscimke {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.boroskep img {
+    width: 100%;
+    height: auto;
+}
+
+.borosszoveg p {
+    margin-top: 5rem;
+    margin-left: 2rem;
+    margin-right: 5rem;
+}
+
+.designketto {
+    background-color: #A9ACD5;
+}
+
+.designketto h1 {
+    padding: 1rem;
+    font-weight: normal;
+}
+
+.logo {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.logokep img {
+    width: 100%;
+    height: auto;
+}
+
+.logoszoveg p {
+    margin-top: 5rem;
+    margin-left: 5rem;
+    margin-right: 5rem;
+}
+
+.kontakt {
+    background-color: #A9ACD5;
+}
+
+.kontakt h1 {
+    padding: 1rem;
+    font-weight: normal;
+}
+
+.kontaktgombok {
+    background-color: #A9ACD5;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.button  {
+    color: black;
+    text-decoration: none;
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    background-color: white;
+    border-radius: 10rem;
+}
+
+.facebook {
+    text-align: center;
+    margin: 3rem;
+}
+
+.instagram {
+    text-align: center;
+    margin: 3rem;
+}
+
+.behance {
+    text-align: center;
+    margin: 3rem;
+}
